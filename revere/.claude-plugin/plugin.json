@@ -1,7 +1,7 @@
 {
   "name": "revere",
-  "version": "0.1.0",
-  "description": "Revere brings policy intelligence into Claude Code. Walking-skeleton release: marketplace + plugin packaging proven end-to-end. Substantive skills land in follow-up versions.",
+  "version": "0.2.0",
+  "description": "Bring Revere's policy intelligence into Claude. Generate weekly policy briefings as formatted Word documents from your Revere bookmarks, with prioritized developments, recommended actions, and an events calendar.",
   "author": {
     "name": "Revere"
   }
