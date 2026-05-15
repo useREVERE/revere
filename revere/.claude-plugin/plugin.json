@@ -1,0 +1,8 @@
+{
+  "name": "revere",
+  "version": "0.1.0",
+  "description": "Revere brings policy intelligence into Claude Code. Walking-skeleton release: marketplace + plugin packaging proven end-to-end. Substantive skills land in follow-up versions.",
+  "author": {
+    "name": "Revere"
+  }
+}

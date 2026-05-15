@@ -1,0 +1,16 @@
+{
+  "name": "revere",
+  "owner": {
+    "name": "Revere"
+  },
+  "plugins": [
+    {
+      "name": "revere",
+      "source": "./revere",
+      "description": "Revere brings policy intelligence into Claude Code. Walking-skeleton release: marketplace + plugin packaging proven end-to-end. Substantive skills land in follow-up versions.",
+      "author": {
+        "name": "Revere"
+      }
+    }
+  ]
+}
