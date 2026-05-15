@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "Revere": {
+      "type": "http",
+      "url": "https://userevere.com/mcp",
+      "title": "Revere",
+      "description": "Search policy filings, surface regulatory changes, and pull intelligence tailored to your practice and client coverage."
+    }
+  }
+}
