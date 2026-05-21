@@ -11,7 +11,7 @@ Generates a publication-ready weekly policy briefing as a `.docx` from your Reve
 Invoke with:
 
 ```
-/revere:brief
+/revere:policy-briefing
 ```
 
 The skill will ask for the organization name and abbreviation, the coverage week, and the priority lanes before pulling source material. If you have a previous briefing, hand it over and the skill will infer most of that and continue the series.
@@ -31,15 +31,15 @@ The skill will ask for the organization name and abbreviation, the coverage week
 /plugin install revere@revere
 ```
 
-Restart Claude Code, then run `/revere:brief`.
+Restart Claude Code, then run `/revere:policy-briefing`.
 
-> The brief skill relies on the Anthropic docx skill (for Word document generation), which Cowork includes by default. Claude Code users may need to install it separately if they don't have it.
+> The policy-briefing skill relies on the Anthropic docx skill (for Word document generation), which Cowork includes by default. Claude Code users may need to install it separately if they don't have it.
 
 ## What's in this release
 
 - Marketplace manifest at `.claude-plugin/marketplace.json`
 - One plugin: `revere/`
-- One skill: `brief` — generates a weekly policy briefing `.docx`
+- One skill: `policy-briefing` — generates a weekly policy briefing `.docx`
 - Revere MCP connector declared in `revere/.mcp.json` (`https://userevere.com/mcp`)
 
 ## What's not in this release (yet)

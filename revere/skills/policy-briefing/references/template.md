@@ -166,14 +166,14 @@ function whyMatters(text) {
     shading: { fill: LIGHT_GRAY, type: ShadingType.CLEAR },
     indent: { left: 200, right: 200 },
     children: [
-      new TextRun({ text: "WHY THIS MATTERS FOR [ORG]: ", font: "Arial", size: 20, bold: true, color: NAVY }),
+      new TextRun({ text: "WHY THIS MATTERS FOR AIR: ", font: "Arial", size: 20, bold: true, color: NAVY }),
       new TextRun({ text, font: "Arial", size: 20, color: DARK_GRAY })
     ]
   });
 }
 ```
 
-**Note:** Replace "[ORG]" with the organization's abbreviation. The bold label + regular text pattern is intentional — it lets the reader scan for the analytical content quickly.
+**Note:** Replace "AIR" with the organization's abbreviation. The bold label + regular text pattern is intentional — it lets the reader scan for the analytical content quickly.
 
 ### Action Arrow (for Immediate Actions section)
 
@@ -299,7 +299,7 @@ const doc = new Document({
         width: { size: 9360, type: WidthType.DXA },
         columnWidths: [4600, 1200, 3560],
         rows: [
-          tableHeaderRow(["DEVELOPMENT", "PRIORITY", "[ORG] ACTION"], [4600, 1200, 3560]),
+          tableHeaderRow(["DEVELOPMENT", "PRIORITY", "AIR ACTION"], [4600, 1200, 3560]),
           // Format: "Title - description sentence." (dash separator, no newlines)
           atGlanceRow("Treasury GENIUS Act NPRM - First rulemaking implementing the GENIUS Act. Proposes principles for state stablecoin regime equivalence. Comments due June 2.", "HIGH", "Submit comment letter on consumer protection baselines"),
           // ... more rows
