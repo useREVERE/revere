@@ -41,6 +41,7 @@ Restart Claude Code, then run `/revere:policy-briefing`.
 - One plugin: `revere/`
 - One skill: `policy-briefing` — generates a weekly policy briefing `.docx`
 - Revere MCP connector declared in `revere/.mcp.json` (`https://userevere.com/mcp`)
+- The policy briefing workflow body is served by Revere MCP via `get_skill("policy-briefing")`, so workflow updates can ship server-side.
 
 ## What's not in this release (yet)
 

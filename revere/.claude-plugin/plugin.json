@@ -1,6 +1,6 @@
 {
   "name": "revere",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Bring Revere's policy intelligence into Claude. Generate weekly policy briefings as formatted Word documents from your Revere bookmarks, with prioritized developments, recommended actions, and an events calendar.",
   "author": {
     "name": "Revere"
